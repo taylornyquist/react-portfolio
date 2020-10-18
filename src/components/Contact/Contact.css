@@ -1,0 +1,19 @@
+  /* Contact Me Styles */
+.contact-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+  
+.contact-links ul li img {
+    /* padding: 5px 15px; */
+    transition: .5s;
+}
+  
+.contact-links ul li img:hover {
+    /* background-color: var(--slate);
+    color: var(--light-gray); */
+    transform: scale(1.3);
+}

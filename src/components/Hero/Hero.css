@@ -1,0 +1,27 @@
+/* Hero Styles */
+.hero {
+    background-image: url("../../assets/images/hero-bg.jpg"), linear-gradient(-45deg, var(--slate), var(--light-gray));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 2px 10px;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: right;
+    background-blend-mode: soft-light;
+    margin: 0 0;
+  }
+  
+  #head-shot {
+    width: 50vw;
+  }
+  
+  .hero-header {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--slate);
+    background-color: rgba(166,181,197,.5);
+    margin: 100px 0 10px 0;
+    box-shadow: 3px 3px 5px var(--dark-blue);
+    padding: 5px;
+  }
