@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.e0ca94a5.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.363b7122.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.363b7122.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.c5f5d2bb.chunk.js": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js",
+    "static/js/2.c5f5d2bb.chunk.js.map": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.56860279319a29e78c07c73c582662af.js": "/react-portfolio/precache-manifest.56860279319a29e78c07c73c582662af.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.e0ca94a5.chunk.css.map": "/react-portfolio/static/css/main.e0ca94a5.chunk.css.map",
+    "static/js/2.c5f5d2bb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.LICENSE.txt",
+    "static/media/Taylor Nyquist Resume.pdf": "/react-portfolio/static/media/Taylor Nyquist Resume.8fb4f2fb.pdf",
+    "static/media/bio-pic.jpg": "/react-portfolio/static/media/bio-pic.62a0e9e5.jpg",
+    "static/media/github-icon-12.svg": "/react-portfolio/static/media/github-icon-12.1b97584c.svg",
+    "static/media/github-icon.svg": "/react-portfolio/static/media/github-icon.64bb200b.svg",
+    "static/media/Hero.css": "/react-portfolio/static/media/hero-bg.ad912db0.jpg",
+    "static/media/instagram-icon.svg": "/react-portfolio/static/media/instagram-icon.1186b158.svg",
+    "static/media/linkedin-icon.svg": "/react-portfolio/static/media/linkedin-icon.3195844e.svg",
+    "static/media/portfolio-1.jpg": "/react-portfolio/static/media/portfolio-1.fb4bb915.jpg",
+    "static/media/portfolio-2.jpg": "/react-portfolio/static/media/portfolio-2.cf6a561f.jpg",
+    "static/media/portfolio-3.jpg": "/react-portfolio/static/media/portfolio-3.ed494730.jpg",
+    "static/media/portfolio-4.jpg": "/react-portfolio/static/media/portfolio-4.12557c9b.jpg",
+    "static/media/portfolio-5.jpg": "/react-portfolio/static/media/portfolio-5.653c2b3d.jpg",
+    "static/media/portfolio-6.jpg": "/react-portfolio/static/media/portfolio-6.938f8fe0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.c5f5d2bb.chunk.js",
+    "static/css/main.e0ca94a5.chunk.css",
+    "static/js/main.363b7122.chunk.js"
+  ]
+}
