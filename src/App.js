@@ -11,18 +11,25 @@ import './App.css';
 function App() {
 
   const [navSelected, setNavSelected] = useState();
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
       <Nav
         navSelected={navSelected}
         setNavSelected={setNavSelected}
+        setContactSelected={setContactSelected}
       ></Nav>
       <Hero></Hero>
       <main className="container">
-        <About></About>
-        <Projects></Projects>
-        <Contact></Contact>
+        {!contactSelected ? (
+          <>
+            <About></About>
+            <Projects></Projects>
+          </>
+        ) : (
+            <Contact></Contact>
+          )}
       </main>
       <Footer></Footer>
     </div>
