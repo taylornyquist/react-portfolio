@@ -9,13 +9,10 @@ function About() {
 
         <React.Fragment>
 
-            <section id="about-me" className="section row">
-                <div className="parent-column1">
+            <section id="about-me" className="row mt-5">
+                <div className="col-md-12">
                     <h2 className="section-title">About Me</h2>
-                </div>
-
-                <div className="bio parent-column2">
-                    <div>
+                    <div className="mt-3">
                         <p>
                             butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy
                             direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice
@@ -36,7 +33,7 @@ function About() {
             </section>
 
         </React.Fragment>
-        
+
     );
 
 }

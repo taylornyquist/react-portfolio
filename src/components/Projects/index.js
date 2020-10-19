@@ -1,65 +1,98 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
 
+
+
 function Projects() {
+
+    const [projects] = useState([
+
+        {
+            id: 1,
+            title: 'The Spontaneous Adventurer',
+            description: 'A site for spontaneous travelers to plan their last-minute trips',
+            deployedUrl: 'https://taylornyquist.github.io/spontaneous-adventurer/',
+            githubUrl: 'https://github.com/taylornyquist/spontaneous-adventurer',
+        },
+        {
+            id: 2,
+            title: 'The Health Log',
+            description: 'A health and fitness tracker to monitor your health and fitness goals.',
+            deployedUrl: 'https://fathomless-thicket-41464.herokuapp.com/',
+            githubUrl: 'https://github.com/sanders43/group-api-project',
+        },
+        {
+            id: 3,
+            title: 'Project Site 3',
+            description: 'Project site three description.',
+            deployedUrl: 'https://www.awwwards.com/mobile-sites/darko-bratina-experience',
+            githubUrl: 'https://github.com/taylornyquist/',
+        },
+        {
+            id: 4,
+            title: 'Project Site 4',
+            description: 'Project site four description.',
+            deployedUrl: 'https://www.awwwards.com/sites/mos-mosh',
+            githubUrl: 'https://github.com/taylornyquist/',
+        },
+        {
+            id: 5,
+            title: 'Project Site 5',
+            description: 'Project site five description.',
+            deployedUrl: 'https://www.awwwards.com/thefutureforward/',
+            githubUrl: 'https://github.com/taylornyquist/',
+        },
+        {
+            id: 6,
+            title: 'Run Buddy',
+            description: 'A community to connect fitness trainers and clients.',
+            deployedUrl: 'https://taylornyquist.github.io/run-buddy/',
+            githubUrl: 'https://github.com/taylornyquist/run-buddy',
+        },
+
+    ]);
 
     return (
 
         <React.Fragment>
 
-            <section id="work" className="section row">
-                <div className="parent-column1">
-                    <h2 className="section-title">Work</h2>
-                </div>
+            <section id="work" className="row mt-5">
+                <div className="col-md-12">
+                    <h2 className="section-title">Projects</h2>
 
-                <div className="parent-column2">
+                    <div className="container">
+                        <div className="col-md-12 work-projects">
 
-                    <div className="work-grid-container">
+                            {projects.map((project, i) => (
+                                <>
+                                    <div key="project-container" className="mt-5 mb-3">
+                                        <h3 key={project.title}>{project.title}
+                                            <span key="span">
+                                                <a key={project.githubUrl} className="github-link" href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                                                    <img key="GitHub Icon" src={require('../../assets/icons/github-icon-12.svg')} alt="GitHub Icon" />
+                                                </a>
+                                            </span>
+                                        </h3>
+                                        <h4 key={project.description} className="mt-1">{project.description}</h4>
 
-                        <a href="https://taylornyquist.github.io/project-1/" target="_blank" rel="noopener noreferrer" className="work-grid-item site-1">
-                            <div>
-                                <h3>The Spontaneous Adventurer</h3>
-                                <h4>A site for spontaneous travelers to plan their last-minute trips</h4>
-                            </div>
-                        </a>
+                                    </div>
 
-                        <a href="https://fathomless-thicket-41464.herokuapp.com/" target="_blank" rel="noopener noreferrer"
-                            className="work-grid-item site-2">
-                            <div>
-                                <h3>Health Log</h3>
-                                <h4>A health tracker.</h4>
-                            </div>
-                        </a>
+                                    <a
+                                        key={project.deployedUrl}
+                                        href={project.deployedUrl}
+                                        target="_blank" rel="noopener noreferrer">
+                                        <img
+                                            className="project-image"
+                                            src={require(`../../assets/images/portfolio-${project.id}.jpg`)}
+                                            alt={project.title}
+                                            key={project.id}
+                                        />
+                                    </a>
 
-                        <a href="https://www.awwwards.com/mobile-sites/darko-bratina-experience" target="_blank" rel="noopener noreferrer"
-                            className="work-grid-item site-3">
-                            <div>
-                                <h3>Site 3</h3>
-                                <h4>Description 3</h4>
-                            </div>
-                        </a>
+                                </>
+                            ))}
 
-                        <a href="https://www.awwwards.com/sites/mos-mosh" target="_blank" rel="noopener noreferrer" className="work-grid-item site-4">
-                            <div>
-                                <h3>Site 4</h3>
-                                <h4>Description 4</h4>
-                            </div>
-                        </a>
-
-                        <a href="https://www.awwwards.com/thefutureforward/" target="_blank" rel="noopener noreferrer" className="work-grid-item site-5">
-                            <div>
-                                <h3>Site 5</h3>
-                                <h4>Description 5</h4>
-                            </div>
-                        </a>
-
-                        <a href="https://www.awwwards.com/talk-the-homogenization-of-the-web-with-superhero-cheesecakes-massimo-meijer-rian-verhagen.html"
-                            target="_blank" rel="noopener noreferrer" className="work-grid-item site-6">
-                            <div>
-                                <h3>Site 6</h3>
-                                <h4>Description 6</h4>
-                            </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </section>

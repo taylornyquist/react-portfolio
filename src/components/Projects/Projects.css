@@ -1,25 +1,48 @@
-.site-1 {
+/* .site-1 {
     grid-column: 1/span 2;
     grid-row: 1/span 2;
     background-image: url("../../assets/images/portfolio-1.jpg");
-  }
-  
-  .site-2 {
-    background-image: url("../../assets/images/health-log.jpg");
-  }
-  
-  .site-3 {
-    background-image: url("../../assets/images/portfolio-3.jpg");
-  }
-  
-  .site-4 {
-    background-image: url("../../assets/images/portfolio-4.jpg");
-  }
-  
-  .site-5 {
-    background-image: url("../../assets/images/portfolio-5.jpg");
-  }
-  
-  .site-6 {
-    background-image: url("../../assets/images/run-buddy.jpg");
-  }
+}
+
+.site-2 {
+background-image: url("../../assets/images/health-log.jpg");
+}
+
+.site-3 {
+background-image: url("../../assets/images/portfolio-3.jpg");
+}
+
+.site-4 {
+background-image: url("../../assets/images/portfolio-4.jpg");
+}
+
+.site-5 {
+background-image: url("../../assets/images/portfolio-5.jpg");
+}
+
+.site-6 {
+background-image: url("../../assets/images/portfolio-6.jpg");
+} */
+
+.work-projects a img {
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(10, 26, 62, .5); */
+    /* transition: .5s */
+}
+
+/* .work-projects a img:hover {
+    transform: scale(1.2);
+    background-color: rgba(10, 26, 62, 0)
+} */
+
+.github-link {
+    width: 5%;
+    height: auto;
+    float: right;
+    transition: .5s;
+}
+
+.github-link:hover {
+    transform: scale(1.3);
+}
