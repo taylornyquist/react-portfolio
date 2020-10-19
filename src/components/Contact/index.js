@@ -10,12 +10,14 @@ function Contact() {
 
     function handleChange(e) {
 
-        if (e.target.name === 'email') {
+        if (e.target.name === 'Email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
 
             // isValid conditional statement
-            if (!isValid) {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`);
+            } else if (!isValid) {
                 setErrorMessage('Your email is invalid.');
             } else {
                 setErrorMessage('');
