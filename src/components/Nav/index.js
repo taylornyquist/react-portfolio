@@ -19,28 +19,28 @@ function Nav(props) {
                     {/* Navigation UL */}
                     <ul>
                         <li>
-                            <a className={navSelected === "About Me" && 'header-active'} href="#about-me"
+                            <a className={`nav-tab ${navSelected === "About Me" && 'header-active'}`} href="#about-me"
                                 onClick={() => {
                                     setNavSelected("About Me");
                                     setContactSelected(false);
                                 }}>About Me</a>
                         </li>
                         <li>
-                            <a className={navSelected === "Work" && 'header-active'} href="#work"
+                            <a className={`nav-tab ${navSelected === "Work" && 'header-active'}`} href="#work"
                                 onClick={() => {
                                     setNavSelected("Work");
                                     setContactSelected(false);
                                 }}>Work</a>
                         </li>
                         <li>
-                            <a className={navSelected === "Contact Me" && 'header-active'} href="#contact-me"
+                            <a className={`nav-tab ${navSelected === "Contact Me" && 'header-active'}`} href="#contact-me"
                                 onClick={() => {
                                     setNavSelected("Contact Me");
                                     setContactSelected(true);
                                 }}>Contact Me</a>
                         </li>
                         <li>
-                            <a className={navSelected === "Resume" && 'header-active'} href={require("../../assets/files/Taylor Nyquist Resume.pdf")} target="_blank" rel="noopener noreferrer"
+                            <a className={`nav-tab ${navSelected === "Resume" && 'header-active'}`} href={require("../../assets/files/Taylor Nyquist Resume.pdf")} target="_blank" rel="noopener noreferrer"
                                 onClick={() => {
                                     setNavSelected("Resume");
                                     setContactSelected(false);

@@ -64,32 +64,30 @@ function Projects() {
                         <div className="col-md-12 work-projects">
 
                             {projects.map((project, i) => (
-                                <>
-                                    <div key="project-container" className="mt-5 mb-3">
-                                        <h3 key={project.title}>{project.title}
-                                            <span key="span">
-                                                <a key={project.githubUrl} className="github-link" href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                                                    <img key="GitHub Icon" src={require('../../assets/icons/github-icon-12.svg')} alt="GitHub Icon" />
+                                <React.Fragment key={`${project.title}-${project.id}`}>
+                                    <div className="mt-5 mb-3">
+                                        <h3>{project.title}
+                                            <span>
+                                                <a className="github-link" href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                                                    <img src={require('../../assets/icons/github-icon-12.svg')} alt="GitHub Icon" />
                                                 </a>
                                             </span>
                                         </h3>
-                                        <h4 key={project.description} className="mt-1">{project.description}</h4>
+                                        <h4 className="mt-1">{project.description}</h4>
 
                                     </div>
 
                                     <a
-                                        key={project.deployedUrl}
                                         href={project.deployedUrl}
                                         target="_blank" rel="noopener noreferrer">
                                         <img
                                             className="project-image"
                                             src={require(`../../assets/images/portfolio-${project.id}.jpg`)}
                                             alt={project.title}
-                                            key={project.id}
                                         />
                                     </a>
 
-                                </>
+                                </React.Fragment>
                             ))}
 
                         </div>

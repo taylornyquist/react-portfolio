@@ -24,11 +24,11 @@ function App() {
       <main className="container">
         {!contactSelected ? (
           <>
-            <About></About>
-            <Projects></Projects>
+            <About/>
+            <Projects/>
           </>
         ) : (
-            <Contact></Contact>
+            <Contact/>
           )}
       </main>
       <Footer></Footer>

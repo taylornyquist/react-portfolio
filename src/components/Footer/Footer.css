@@ -6,6 +6,9 @@
 .contact-links img {
     /* padding: 5px 15px; */
     transition: .5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
   
 .contact-links img:hover {
