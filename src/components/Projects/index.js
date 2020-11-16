@@ -25,7 +25,7 @@ function Projects() {
             id: 3,
             title: 'Idols Initiatives',
             description: "A charity hub to follow your favorite celebrities' foundations",
-            deployedUrl: 'https://www.awwwards.com/mobile-sites/darko-bratina-experience',
+            deployedUrl: 'https://radiant-temple-46938.herokuapp.com/',
             githubUrl: 'https://github.com/taylornyquist/idols-initiatives',
         },
         {
