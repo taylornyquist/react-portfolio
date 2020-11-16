@@ -23,10 +23,10 @@ function Projects() {
         },
         {
             id: 3,
-            title: 'Project Site 3',
-            description: 'Project site three description.',
+            title: 'Idols Initiatives',
+            description: "A charity hub to follow your favorite celebrities' foundations",
             deployedUrl: 'https://www.awwwards.com/mobile-sites/darko-bratina-experience',
-            githubUrl: 'https://github.com/taylornyquist/',
+            githubUrl: 'https://github.com/taylornyquist/idols-initiatives',
         },
         {
             id: 4,
