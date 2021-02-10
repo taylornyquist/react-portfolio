@@ -40,7 +40,7 @@ function Nav(props) {
                                 }}>Contact Me</a>
                         </li>
                         <li>
-                            <a className={`nav-tab ${navSelected === "Resume" && 'header-active'}`} href={require("../../assets/files/Taylor Nyquist Resume.pdf")} target="_blank" rel="noopener noreferrer"
+                            <a className={`nav-tab ${navSelected === "Resume" && 'header-active'}`} href={require("../../assets/files/Nyquist Resume 210107.pdf")} target="_blank" rel="noopener noreferrer"
                                 onClick={() => {
                                     setNavSelected("Resume");
                                     setContactSelected(false);
