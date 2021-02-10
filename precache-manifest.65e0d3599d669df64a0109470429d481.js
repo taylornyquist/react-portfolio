@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bad12a2abc4b8241b3fa1b198fd84cbf",
+    "revision": "48e224e29eeb36e62deb4b0b2b36e582",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "8fb3ebf4cc1b1be4bbd8",
+    "revision": "8a68b724613bbcac2a8f",
     "url": "/react-portfolio/static/css/main.ffeda980.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fb3ebf4cc1b1be4bbd8",
-    "url": "/react-portfolio/static/js/main.6804a0bb.chunk.js"
+    "revision": "8a68b724613bbcac2a8f",
+    "url": "/react-portfolio/static/js/main.51bd8c4d.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
     "url": "/react-portfolio/static/js/runtime-main.213b1880.js"
   },
   {
-    "revision": "8fb4f2fb8e800974c126011fcd53fcd5",
-    "url": "/react-portfolio/static/media/Taylor Nyquist Resume.8fb4f2fb.pdf"
+    "revision": "d274b51264ea445ee1b0b7b663fb787a",
+    "url": "/react-portfolio/static/media/Nyquist Resume 210107.d274b512.pdf"
   },
   {
     "revision": "62a0e9e5bfdc2e092e40c10a705a798e",
