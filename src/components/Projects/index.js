@@ -9,10 +9,10 @@ function Projects() {
 
         {
             id: 1,
-            title: 'The Spontaneous Adventurer',
-            description: 'A site for spontaneous travelers to plan their last-minute trips',
-            deployedUrl: 'https://taylornyquist.github.io/spontaneous-adventurer/',
-            githubUrl: 'https://github.com/taylornyquist/spontaneous-adventurer',
+            title: 'Idols Initiatives',
+            description: "A charity hub to follow your favorite celebrities' foundations",
+            deployedUrl: 'https://radiant-temple-46938.herokuapp.com/',
+            githubUrl: 'https://github.com/taylornyquist/idols-initiatives',
         },
         {
             id: 2,
@@ -23,24 +23,24 @@ function Projects() {
         },
         {
             id: 3,
-            title: 'Idols Initiatives',
-            description: "A charity hub to follow your favorite celebrities' foundations",
-            deployedUrl: 'https://radiant-temple-46938.herokuapp.com/',
-            githubUrl: 'https://github.com/taylornyquist/idols-initiatives',
+            title: 'The Spontaneous Adventurer',
+            description: 'A site for spontaneous travelers to plan their last-minute trips',
+            deployedUrl: 'https://taylornyquist.github.io/spontaneous-adventurer/',
+            githubUrl: 'https://github.com/taylornyquist/spontaneous-adventurer',
         },
         {
             id: 4,
-            title: 'Project Site 4',
-            description: 'Project site four description.',
-            deployedUrl: 'https://www.awwwards.com/sites/mos-mosh',
-            githubUrl: 'https://github.com/taylornyquist/',
+            title: 'Weather Dashboard',
+            description: 'A city by city weather forecast API powered by OpenWeather',
+            deployedUrl: 'https://taylornyquist.github.io/weather-dashboard/',
+            githubUrl: 'https://github.com/taylornyquist/weather-dashboard',
         },
         {
             id: 5,
-            title: 'Project Site 5',
-            description: 'Project site five description.',
-            deployedUrl: 'https://www.awwwards.com/thefutureforward/',
-            githubUrl: 'https://github.com/taylornyquist/',
+            title: 'Shop Shop',
+            description: 'An e-commerce site built in React with Redux state management',
+            deployedUrl: 'https://mysterious-wildwood-94060.herokuapp.com/',
+            githubUrl: 'https://github.com/taylornyquist/shop-shop-redux',
         },
         {
             id: 6,
@@ -65,8 +65,8 @@ function Projects() {
 
                             {projects.map((project, i) => (
                                 <React.Fragment key={`${project.title}-${project.id}`}>
-                                    <div className="mt-5 mb-3">
-                                        <h3>{project.title}
+                                    <div className="mt-5 mb-3 ">
+                                        <h3><u>{project.title}</u>
                                             <span>
                                                 <a className="github-link" href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                                                     <img src={require('../../assets/icons/github-icon-12.svg')} alt="GitHub Icon" />
@@ -80,11 +80,14 @@ function Projects() {
                                     <a
                                         href={project.deployedUrl}
                                         target="_blank" rel="noopener noreferrer">
-                                        <img
-                                            className="project-image"
-                                            src={require(`../../assets/images/portfolio-${project.id}.jpg`)}
-                                            alt={project.title}
-                                        />
+                                            <div className="image-container">
+                                                <img
+                                                className="project-image"
+                                                src={require(`../../assets/images/portfolio-${project.id}.jpg`)}
+                                                alt={project.title}
+                                                />
+                                            </div>
+                                        
                                     </a>
 
                                 </React.Fragment>

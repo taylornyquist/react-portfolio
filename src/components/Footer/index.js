@@ -8,11 +8,11 @@ function Footer() {
 
         <React.Fragment>
 
-            <footer id="footer" className="container mt-5">
+            <footer id="footer" className="container mt-5 mb-5">
 
-                        <div className="row">
+                        <div className="row footer-row">
 
-                            <div className="col-md-3 contact-links">
+                            <div className="col-md-3 contact-links" id="email">
                                 <a href="mailto:tnyquist@gmail.com">
                                     <img src={require('../../assets/icons/email-icon.png')} alt="Email Icon" />
                                 </a>

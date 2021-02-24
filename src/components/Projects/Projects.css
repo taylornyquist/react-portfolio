@@ -24,17 +24,22 @@ background-image: url("../../assets/images/portfolio-5.jpg");
 background-image: url("../../assets/images/portfolio-6.jpg");
 } */
 
+.image-container {
+    background-color:rgb(206, 212, 218, 1);
+}
+
 .work-projects a img {
     width: 100%;
     height: auto;
+    opacity: .7;
     /* background-color: rgba(10, 26, 62, .5); */
-    /* transition: .5s */
+    transition: .5s;
+    
 }
 
-/* .work-projects a img:hover {
-    transform: scale(1.2);
-    background-color: rgba(10, 26, 62, 0)
-} */
+.work-projects a img:hover {
+    opacity: 1;
+}
 
 .github-link {
     width: 5%;
