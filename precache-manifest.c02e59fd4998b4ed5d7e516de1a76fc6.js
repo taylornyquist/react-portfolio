@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "48e224e29eeb36e62deb4b0b2b36e582",
+    "revision": "f00088668089b6b8b5a6a0f373107f1a",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "8a68b724613bbcac2a8f",
-    "url": "/react-portfolio/static/css/main.ffeda980.chunk.css"
+    "revision": "47d54c9edcd12e7dbc58",
+    "url": "/react-portfolio/static/css/main.ab5216c4.chunk.css"
   },
   {
     "revision": "2b4c1b1ddd816548a162",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a68b724613bbcac2a8f",
-    "url": "/react-portfolio/static/js/main.51bd8c4d.chunk.js"
+    "revision": "47d54c9edcd12e7dbc58",
+    "url": "/react-portfolio/static/js/main.4fd02aed.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -52,24 +52,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/linkedin-icon.3195844e.svg"
   },
   {
-    "revision": "fb4bb91504de07d0ab8d07434e5e4a47",
-    "url": "/react-portfolio/static/media/portfolio-1.fb4bb915.jpg"
+    "revision": "9b0d3866d85fc66980b9d3f44d87138f",
+    "url": "/react-portfolio/static/media/portfolio-1.9b0d3866.jpg"
   },
   {
     "revision": "cf6a561ff80e2041c4c13884f7a30ed9",
     "url": "/react-portfolio/static/media/portfolio-2.cf6a561f.jpg"
   },
   {
-    "revision": "9b0d3866d85fc66980b9d3f44d87138f",
-    "url": "/react-portfolio/static/media/portfolio-3.9b0d3866.jpg"
+    "revision": "fb4bb91504de07d0ab8d07434e5e4a47",
+    "url": "/react-portfolio/static/media/portfolio-3.fb4bb915.jpg"
   },
   {
-    "revision": "12557c9b108cf5e5347f8d838014b31e",
-    "url": "/react-portfolio/static/media/portfolio-4.12557c9b.jpg"
+    "revision": "7ee58ecc2e23937cd7b66110f5f46294",
+    "url": "/react-portfolio/static/media/portfolio-4.7ee58ecc.jpg"
   },
   {
-    "revision": "653c2b3d29f66a3c6e957518f3bd16f0",
-    "url": "/react-portfolio/static/media/portfolio-5.653c2b3d.jpg"
+    "revision": "9f1fcf798595018c373ea860c8bdada8",
+    "url": "/react-portfolio/static/media/portfolio-5.9f1fcf79.jpg"
   },
   {
     "revision": "938f8fe0fe2e5880b3ef528c5188a096",
