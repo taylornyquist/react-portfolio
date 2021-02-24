@@ -81,7 +81,7 @@ function Contact() {
                             </div>
 
                         </form> */}
-                        <h4>Taylor Nyquist </h4>
+                        {/* <h4>Taylor Nyquist </h4> */}
                         {/* <Button className="text-info" variant="link" size="lg" href="tel:+16154387972">+1 615·438·7972</Button>
                         <br></br>
                         <Button className="text-info" variant="link" size="lg" href="mailto:tnyquist@gmail.com">tnyquist@gmail.com</Button>
