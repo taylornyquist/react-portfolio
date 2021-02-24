@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ab5216c4.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.4fd02aed.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.4fd02aed.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.ce5e7615.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.4d410403.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.4d410403.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
-    "static/js/2.c5f5d2bb.chunk.js": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js",
-    "static/js/2.c5f5d2bb.chunk.js.map": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.map",
+    "static/css/2.2a86faee.chunk.css": "/react-portfolio/static/css/2.2a86faee.chunk.css",
+    "static/js/2.ce6b37ff.chunk.js": "/react-portfolio/static/js/2.ce6b37ff.chunk.js",
+    "static/js/2.ce6b37ff.chunk.js.map": "/react-portfolio/static/js/2.ce6b37ff.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.c02e59fd4998b4ed5d7e516de1a76fc6.js": "/react-portfolio/precache-manifest.c02e59fd4998b4ed5d7e516de1a76fc6.js",
+    "precache-manifest.af6a4796cdef50a05a34d575ea1c6b09.js": "/react-portfolio/precache-manifest.af6a4796cdef50a05a34d575ea1c6b09.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.ab5216c4.chunk.css.map": "/react-portfolio/static/css/main.ab5216c4.chunk.css.map",
-    "static/js/2.c5f5d2bb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.LICENSE.txt",
+    "static/css/2.2a86faee.chunk.css.map": "/react-portfolio/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.ce5e7615.chunk.css.map": "/react-portfolio/static/css/main.ce5e7615.chunk.css.map",
+    "static/js/2.ce6b37ff.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ce6b37ff.chunk.js.LICENSE.txt",
     "static/media/Nyquist Resume 210107.pdf": "/react-portfolio/static/media/Nyquist Resume 210107.d274b512.pdf",
-    "static/media/bio-pic.jpg": "/react-portfolio/static/media/bio-pic.62a0e9e5.jpg",
+    "static/media/bio-pic.jpg": "/react-portfolio/static/media/bio-pic.83884463.jpg",
     "static/media/github-icon-12.svg": "/react-portfolio/static/media/github-icon-12.1b97584c.svg",
     "static/media/github-icon.svg": "/react-portfolio/static/media/github-icon.64bb200b.svg",
     "static/media/Hero.css": "/react-portfolio/static/media/hero-bg.ad912db0.jpg",
@@ -28,8 +30,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
-    "static/js/2.c5f5d2bb.chunk.js",
-    "static/css/main.ab5216c4.chunk.css",
-    "static/js/main.4fd02aed.chunk.js"
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.ce6b37ff.chunk.js",
+    "static/css/main.ce5e7615.chunk.css",
+    "static/js/main.4d410403.chunk.js"
   ]
 }
