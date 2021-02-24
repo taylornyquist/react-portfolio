@@ -31,7 +31,7 @@ background-image: url("../../assets/images/portfolio-6.jpg");
 .work-projects a img {
     width: 100%;
     height: auto;
-    opacity: .7;
+    opacity: .5;
     /* background-color: rgba(10, 26, 62, .5); */
     transition: .5s;
     

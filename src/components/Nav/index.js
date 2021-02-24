@@ -11,11 +11,11 @@ function Nav(props) {
 
     return (
         <React.Fragment>
-            <header>
+            <header className="mb-0">
                 <h1>
                     <a href="./index.html">Taylor Nyquist</a>
                 </h1>
-                <nav>
+                <nav className="mb-0">
                     {/* Navigation UL */}
                     <ul>
                         <li>

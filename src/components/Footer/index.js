@@ -8,7 +8,7 @@ function Footer() {
 
         <React.Fragment>
 
-            <footer id="footer" className="container mt-5 mb-5">
+            <footer id="footer" className="container mt-5 mb-5 border-top pt-3">
 
                         <div className="row footer-row">
 

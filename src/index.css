@@ -54,11 +54,24 @@ header h1 {
   padding-top: 10px;
   padding-bottom: 10px;
   box-shadow: 3px 3px 5px var(--dark-blue);
+  /* transition: .5s; */;
+  margin-top: 0px;
+  margin-bottom: 0px
 }
+
+/* header h1:hover {
+  background-color: rgb(49, 52, 58);
+} */
 
 header h1 a {
   text-decoration: none;
   color: var(--slate);
+  transition: .3s;
+}
+
+header h1 a:hover {
+  text-decoration: none;
+  color: var(--light-gray);
 }
 
 header nav ul {
@@ -67,6 +80,7 @@ header nav ul {
   justify-content: space-between;
   align-items: right;
   list-style: none;
+  margin-bottom: 0px;
 }
 
 header nav ul li a {
@@ -183,6 +197,7 @@ nav {
 
   header h1 {
       text-align: center;
+      padding-left: 10px;
   }
 
   header nav ul {

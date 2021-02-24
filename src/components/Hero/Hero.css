@@ -13,7 +13,10 @@
   }
   
   #head-shot {
-    width: 50vw;
+    width: 25vw;
+    height: auto;
+    margin: 15px;
+    box-shadow: 3px 3px 5px var(--dark-blue);
   }
   
   .hero-header {

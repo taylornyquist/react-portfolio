@@ -56,7 +56,7 @@ function Projects() {
 
         <React.Fragment>
 
-            <section id="work" className="row mt-5">
+            <section id="work" className="row mt-3">
                 <div className="col-md-12">
                     <h2 className="section-title">Projects</h2>
 
@@ -65,15 +65,15 @@ function Projects() {
 
                             {projects.map((project, i) => (
                                 <React.Fragment key={`${project.title}-${project.id}`}>
-                                    <div className="mt-5 mb-3 ">
-                                        <h3><u>{project.title}</u>
+                                    <div className="mt-4 mb-3 ">
+                                        <h3>{project.title}
                                             <span>
                                                 <a className="github-link" href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                                                     <img src={require('../../assets/icons/github-icon-12.svg')} alt="GitHub Icon" />
                                                 </a>
                                             </span>
                                         </h3>
-                                        <h4 className="mt-1">{project.description}</h4>
+                                        <h5 className="mt-1">{project.description}</h5>
 
                                     </div>
 
@@ -82,7 +82,7 @@ function Projects() {
                                         target="_blank" rel="noopener noreferrer">
                                             <div className="image-container">
                                                 <img
-                                                className="project-image"
+                                                className="project-image mb-3"
                                                 src={require(`../../assets/images/portfolio-${project.id}.jpg`)}
                                                 alt={project.title}
                                                 />

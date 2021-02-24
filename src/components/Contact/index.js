@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import { Button, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 function Contact() {
 
@@ -53,7 +54,7 @@ function Contact() {
                     <h2 className="section-title">Contact Me</h2>
                     <div className="mt-3 container">
 
-                        <form id="contact-form" onSubmit={handleSubmit}>
+                        {/* <form id="contact-form" onSubmit={handleSubmit}>
                             <div className="row mt-3">
                                 <label className="col-md-3" htmlFor="name">Name:</label>
                                 <input className="col-md-9" type="text" defaultValue={name} onBlur={handleChange} name="Name" />
@@ -65,10 +66,10 @@ function Contact() {
                             <div className="row mt-3">
                                 <label className="col-md-3" htmlFor="message">Message:</label>
                                 <textarea className="col-md-9" name="Message" defaultValue={message} onBlur={handleChange} rows="5" />
-                            </div>
+                            </div> */}
 
-                            {/* the statement below means if(errorMessage)... */}
-                            {errorMessage && (
+                        {/* the statement below means if(errorMessage)... */}
+                        {/* {errorMessage && (
                                 <div>
                                     <p className="error-text">{errorMessage}</p>
                                 </div>
@@ -79,7 +80,18 @@ function Contact() {
 
                             </div>
 
-                        </form>
+                        </form> */}
+                        <h4>Taylor Nyquist </h4>
+                        {/* <Button className="text-info" variant="link" size="lg" href="tel:+16154387972">+1 615·438·7972</Button>
+                        <br></br>
+                        <Button className="text-info" variant="link" size="lg" href="mailto:tnyquist@gmail.com">tnyquist@gmail.com</Button>
+                        <br></br>
+                        <Button className="text-info" variant="link" size="lg" href="https://github.com/taylornyquist">GitHub</Button>
+                        <br></br>
+                        <Button className="text-info" variant="link" size="lg" href="https://www.linkedin.com/in/taylor-nyquist/">LinkedIn</Button>
+                        <br></br>
+                        <Button className="text-info" variant="link" size="lg" href="https://www.instagram.com/tnyquist/">Instagram</Button> */}
+                        <Button className="text-info" variant="link" size="lg" href="mailto:tnyquist@gmail.com">tnyquist@gmail.com</Button>
 
                     </div>
                 </div>
